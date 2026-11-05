@@ -1,0 +1,15 @@
+{
+  "name": "bot-musica-julieth",
+  "version": "1.0.0",
+  "description": "Servidor backend y Bot de Discord para reproducir música en vivo en la página web de Julieth",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "express": "^4.18.2",
+    "play-dl": "^1.9.7",
+    "socket.io": "^4.7.2"
+  }
+}
